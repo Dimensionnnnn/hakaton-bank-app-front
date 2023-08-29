@@ -28,5 +28,5 @@ If you are developing a production application, we recommend updating the config
 
 
 To Run
-npm install @chakra-ui/react @emotion/react @emotion/styled framer-motion axios 
-npm run dev
+- npm install @chakra-ui/react @emotion/react @emotion/styled framer-motion axios 
+- npm run dev
