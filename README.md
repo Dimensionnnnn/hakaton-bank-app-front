@@ -27,6 +27,6 @@ If you are developing a production application, we recommend updating the config
 - Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
 
 
-##To Run
+## To Run
 - npm install @chakra-ui/react @emotion/react @emotion/styled framer-motion axios 
 - npm run dev
