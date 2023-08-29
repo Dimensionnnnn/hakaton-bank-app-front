@@ -45,7 +45,7 @@ const App: React.FC = () => {
       phoneNumber: selectedCheckboxUserData.includes("Номер телефона") ? '+7-999-999-99-99' : null,
     }
 
-    axios.post('http://localhost:3001/token', data)
+    axios.post('http://localhost:8080/api/client/new', data)
       .then((response) => {
         setIsFetchingToken(false);
         setHasToken(true);
